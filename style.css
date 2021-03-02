@@ -1,0 +1,143 @@
+/* ===========
+COMMON CSS STYLE 
+===============*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* ul li{
+    display: inline-block;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+} */
+
+/*=======
+ HEADER STYLE START 
+===========*/
+.header-top {
+    background: #073b4c;
+    padding: 10px 20px;
+} 
+.address-link ul li {
+    padding: 5px 10px;
+    display: inline-block;
+    list-style: none;
+}
+.address-link ul li a{
+    text-decoration: none;
+    color: white
+}
+  
+.social-icon ul li {
+    padding: 5px 10px;
+    display: inline-block;
+    list-style: none;
+} 
+.social-icon ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*=======
+ HEADER STYLE END 
+===========*/
+
+
+/*=======
+ SLIDER STYLE START 
+===========*/
+    .slider{
+        padding: 150px 0;
+        background-color: #0e9b75;
+    }
+    .new{
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+    .shopping{
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+    .carousel-indicators {
+        position: absolute;
+       left: 79%!important;
+        bottom: 50%;
+        z-index: 2;
+        display: block !important;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+        width: 10px;
+    }
+   .carousel-indicators button {
+        margin: 2px!important;
+       
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    /* .active{
+        color: orange;
+        border:unset;
+    } */
+    
+/*=======
+SLIDER STYLE END 
+
+/*=======
+ ABOUT STYLE START 
+===========*/
+.ecommerce{
+    box-shadow: 20px 20px orange;
+}
+
+/*=======
+ABOUT  STYLE END 
+
+/*=======
+CONTACT STYLE START 
+===========*/
+.fw-bold.text-center.text-warning {
+    font-size: 40px!important;
+}
+.line {
+    width: 100px;
+    height: 2px;
+    background: black;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+/*=======
+CONTACT STYLE END 
+===========*/
+
+
+
+
+/*=======
+ STYLE START 
+===========*/
+
+/*=======
+ STYLE END 
+===========*/
