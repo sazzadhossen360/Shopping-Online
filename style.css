@@ -56,9 +56,34 @@ ul li a{
 }
 
 /*=======
- HEADER STYLE END 
+ HEADER TOP STYLE END 
 ===========*/
 
+/*=======
+ HEADER STYLE START 
+===========*/
+/*=======
+ HEADER STYLE END 
+===========*/
+/* .navbar-toggler:focus {
+    box-shadow:unset;
+} */
+/* textarea:focus, input:focus{
+    outline: none!important;
+    border: 0!important;
+} */
+/* *:focus {
+    outline: none;
+} */
+.form-control:focus {
+    border-color: inherit!important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  input:focus,textarea:focus{
+    border: transparent;
+    box-shadow: 0;
+ }
 
 /*=======
  SLIDER STYLE START 
