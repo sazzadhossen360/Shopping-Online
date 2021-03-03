@@ -65,9 +65,9 @@ ul li a{
 /*=======
  HEADER STYLE END 
 ===========*/
-/* .navbar-toggler:focus {
+.navbar-toggler:focus {
     box-shadow:unset;
-} */
+}
 /* textarea:focus, input:focus{
     outline: none!important;
     border: 0!important;
