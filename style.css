@@ -68,6 +68,12 @@ ul li a{
 .navbar-toggler:focus {
     box-shadow:unset;
 }
+.carousel-indicators .active {
+    background-color: #FFC107;
+}
+.carousel-indicators button {
+    border: unset;
+}
 /* textarea:focus, input:focus{
     outline: none!important;
     border: 0!important;
@@ -81,14 +87,15 @@ ul li a{
     box-shadow: none;
   }
   input:focus,textarea:focus{
-    border: transparent;
+    
     box-shadow: 0;
  }
 
  ::placeholder {
-    color: red;
+    color: orange;
     opacity: 1; /* Firefox */
   }
+
 /*=======
  SLIDER STYLE START 
 ===========*/
