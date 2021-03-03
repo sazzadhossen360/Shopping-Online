@@ -85,6 +85,10 @@ ul li a{
     box-shadow: 0;
  }
 
+ ::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
 /*=======
  SLIDER STYLE START 
 ===========*/

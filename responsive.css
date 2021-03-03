@@ -16,10 +16,6 @@
     .col-md-5 {
         margin-top: 30px;
     }
-    .carousel-indicators {
-       
-        bottom: -67px;
-    }
     .about.py-4 {
         margin-top: 20px;
         text-align: center;
@@ -42,13 +38,44 @@
     .btn.btn-warning.w-25.m-auto.mt-5.text-white {
         width: 50% !important;
     }
-    
-
+    .carousel-indicators {
+        position: absolute;
+        left: 79% !important;
+        bottom: 50%;
+        z-index: 2;
+        display: block !important;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+        width: 10px;
+    }
+    .slider {
+        padding: 60px 0;
+        
+    }
+    .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
 }
 
 @media only screen and (max-width:575px){
     .fw-bold.shopping {
         font-size: 30px;
+    }
+    .slider {
+        padding: 50px 0;
+        
+    }
+    .about.py-4 {
+        margin-top: 0px;
+       
+    }
+    .fw-bold {
+        margin-top: 0px 0;
+       
     }
     
 }
